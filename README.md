@@ -22,6 +22,6 @@ heatmap = grad_cam(model, data_vector, category_index, conv_name, nb_classes)
 -   data_vector : Input data (1D)
 -   category_index : the index of predicted category
 -   conv_name : the last convolutional layer of your model
--   nb_classes : the number of class
+-   nb_classes : the number of categories
 ### Output
 The vector of heatmap value (the same shape as data_vector)
